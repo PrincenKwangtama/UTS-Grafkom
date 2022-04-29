@@ -16,7 +16,7 @@ using OpenTK.Windowing.GraphicsLibraryFramework;
 
 namespace Test
 {
-    internal class window : GameWindow
+    internal class Windows : GameWindow
     {
         float[] _vertices =
             {
@@ -75,7 +75,7 @@ namespace Test
         float time_tangan_kiri = -0.01f;
         float time_tangan_gaya_kanan = 0.01f;
         float time_tangan_gaya_kiri = -0.01f;
-        public window(GameWindowSettings gameWindowSettings, NativeWindowSettings nativeWindowSettings) : base(gameWindowSettings, nativeWindowSettings)
+        public Windows(GameWindowSettings gameWindowSettings, NativeWindowSettings nativeWindowSettings) : base(gameWindowSettings, nativeWindowSettings)
         {
             CenterWindow();
         }
